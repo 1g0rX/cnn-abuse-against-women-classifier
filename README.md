@@ -175,19 +175,9 @@ Técnica que monitora a loss de validação e interrompe o treino automaticament
 
 ### Matrizes de Confusão
 
-**From Scratch:**
-```
-              Nao Violencia   Violencia
-Nao Violencia     15             4
-Violencia          5            17
-```
+![From Scratch](src/resultados/graficos/from_scratch_confusion_matrix.png)
 
-**Transfer Learning:**
-```
-              Nao Violencia   Violencia
-Nao Violencia     13             6
-Violencia          0            22
-```
+![Transfer Learning](src/resultados/graficos/transfer_learning_confusion_matrix.png)
 
 ### Análise
 
@@ -196,13 +186,11 @@ Violencia          0            22
 - **From Scratch limitado pelo dataset pequeno (204 imagens)** — CNN precisa de milhares de exemplos para aprender features do zero
 - **VGG16 pré-treinada na ImageNet (~14M imagens)** já possui representações robustas de bordas, texturas e formas
 
-### Gráficos
+### Curvas de Aprendizado
 
-Os gráficos de curvas de aprendizado e matrizes de confusão estão em `src/resultados/graficos/`:
-- `from_scratch_learning_curves.png`
-- `from_scratch_confusion_matrix.png`
-- `transfer_learning_learning_curves.png`
-- `transfer_learning_confusion_matrix.png`
+![From Scratch](src/resultados/graficos/from_scratch_learning_curves.png)
+
+![Transfer Learning](src/resultados/graficos/transfer_learning_learning_curves.png)
 
 ---
 
