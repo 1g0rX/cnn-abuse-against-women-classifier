@@ -26,7 +26,7 @@ Comparação entre AlexNet treinada do zero e Transfer Learning (VGG16) para det
 8. [Instalação e Dependências](#instalação-e-dependências)
 9. [Como Executar](#como-executar)
 10. [Classificação de Novas Imagens](#classificação-de-novas-imagens)
-11. [Documentos Gerados](#documentos-gerados)
+11. [Licenças](#licenças)
 
 ---
 
