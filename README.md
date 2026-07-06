@@ -198,34 +198,25 @@ Técnica que monitora a loss de validação e interrompe o treino automaticament
 
 ```
 Seminário 2/
-├── artigo.tex              →  artigo.pdf        (2 páginas, twocolumn LaTeX)
-├── slides.tex              →  slides.pdf         (18 slides, Beamer Madrid)
-├── guia_apresentacao.md                          (guia técnico do código)
-├── roteiro_apresentacao.md                       (roteiro slide a slide)
 ├── README.md                                     (esta documentação)
-├── mulheres/                                     (dataset)
-│   ├── casal/               (96 imagens)
-│   └── violencia/           (108 imagens)
-└── src/
-    ├── .venv/                                    (ambiente virtual Python)
-    ├── config.py                                 (constantes e paths)
-    ├── preprocess.py                             (carregamento, anonimização, split, augmentation)
-    ├── alexnet.py                                (AlexNet scratch + VGG16 extrator + classificador)
-    ├── main.py                                   (Experimento A: AlexNet do zero)
-    ├── transfer_only.py                          (Experimento B: Transfer Learning)
-    ├── evaluate.py                               (plotagem + métricas + matriz de confusão)
-    ├── predict.py                                (classificador de imagens individuais)
-    └── resultados/
-        ├── from_scratch_metricas.txt             (métricas detalhadas)
-        ├── transfer_learning_metricas.txt        (métricas detalhadas)
-        ├── modelo_from_scratch.keras             (35 MB)
-        ├── extrator_vgg16.keras                  (57 MB)
-        ├── classificador_transfer.keras          (149 MB)
-        └── graficos/
-            ├── from_scratch_learning_curves.png
-            ├── from_scratch_confusion_matrix.png
-            ├── transfer_learning_learning_curves.png
-            └── transfer_learning_confusion_matrix.png
+├── requirements.txt                              (dependências pip)
+├── src/
+│   ├── config.py                                 (constantes e paths)
+│   ├── preprocess.py                             (carregamento, anonimização, split, augmentation)
+│   ├── alexnet.py                                (AlexNet scratch + VGG16 extrator + classificador)
+│   ├── main.py                                   (Experimento A: AlexNet do zero)
+│   ├── transfer_only.py                          (Experimento B: Transfer Learning)
+│   ├── evaluate.py                               (plotagem + métricas + matriz de confusão)
+│   ├── predict.py                                (classificador de imagens individuais)
+│   └── resultados/
+│       ├── from_scratch_metricas.txt             (métricas detalhadas)
+│       ├── transfer_learning_metricas.txt        (métricas detalhadas)
+│       ├── modelo_from_scratch.keras             (35 MB)
+│       └── graficos/
+│           ├── from_scratch_learning_curves.png
+│           ├── from_scratch_confusion_matrix.png
+│           ├── transfer_learning_learning_curves.png
+│           └── transfer_learning_confusion_matrix.png
 ```
 
 ### Descrição dos Módulos
