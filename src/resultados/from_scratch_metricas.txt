@@ -1,0 +1,23 @@
+======================================================================
+RELATORIO DE METRICAS - From Scratch
+======================================================================
+
+Metricas Medias (media ± desvio padrao das 3 execucoes):
+--------------------------------------------------
+  Acuracia (Accuracy):    75.61% ± 5.27%
+  Precisao (Precision):   81.26% ± 10.33%
+  Recall (Sensibilidade): 74.24% ± 5.67%
+  F1-Score:               76.80% ± 2.67%
+
+Matriz de Confusao Media (normalizada):
+--------------------------------------------------
+                    Nao Violencia        Violencia
+  Nao Violencia    15.0000  4.0000
+  Violencia        5.0000  17.0000
+
+Arquitetura: AlexNet
+Experimento: From Scratch
+Dataset: 2 classes
+Numero de execucoes: 3
+Epocas por execucao: 25
+======================================================================
