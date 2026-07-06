@@ -2,9 +2,9 @@
 
 Comparação entre AlexNet treinada do zero e Transfer Learning (VGG16) para detecção binária de violência em imagens.
 
-> **⚠️ Dataset não incluído:** este repositório não contém as imagens de dataset. Você precisará do seu próprio conjunto de imagens organizado em `mulheres/casal/` e `mulheres/violencia/`.
+> **Dataset não incluído:** este repositório não contém as imagens de dataset. Você precisará do seu próprio conjunto de imagens organizado em `mulheres/casal/` e `mulheres/violencia/`.
 >
-> **⚠️ Modelos de Transfer Learning não incluídos:** os arquivos `extrator_vgg16.keras` (56 MB) e `classificador_transfer.keras` (149 MB) ultrapassam o limite do GitHub. Apenas o modelo `modelo_from_scratch.keras` (35 MB) está disponível. Para testar o Transfer Learning, execute `python transfer_only.py` para treinar localmente.
+> **Modelos de Transfer Learning não incluídos:** os arquivos `extrator_vgg16.keras` (56 MB) e `classificador_transfer.keras` (149 MB) ultrapassam o limite do GitHub. Apenas o modelo `modelo_from_scratch.keras` (35 MB) está disponível. Para testar o Transfer Learning, execute `python transfer_only.py` para treinar localmente.
 
 **Disciplina:** Visão Computacional — CEFET-MG  
 **Autor:** Igor Moreira Lopes  
@@ -338,7 +338,7 @@ python predict.py ~/Downloads/teste.jpg --from-scratch
     Violencia: 97.23%
 ```
 
-> **Nota:** O modo `--from-scratch` funciona imediatamente (modelo incluso no repositório). O modo `--transfer` requer executar `python transfer_only.py` primeiro para treinar e salvar os modelos, que são grandes demais para serem incluídos no GitHub.
+> O modo `--from-scratch` funciona imediatamente (modelo incluso no repositório). O modo `--transfer` requer executar `python transfer_only.py` primeiro para treinar e salvar os modelos, que são grandes demais para serem incluídos no GitHub.
 
 **Requisitos:** os modelos precisam ter sido treinados e salvos antes (execute `main.py` e/ou `transfer_only.py` primeiro).
 
