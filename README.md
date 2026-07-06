@@ -333,20 +333,7 @@ python predict.py ~/Downloads/teste.jpg --from-scratch
 
 **Requisitos:** os modelos precisam ter sido treinados e salvos antes (execute `main.py` e/ou `transfer_only.py` primeiro).
 
----
 
-## Documentos Gerados
-
-| Documento | Arquivo | Descrição |
-|-----------|---------|-----------|
-| Artigo acadêmico | `artigo.pdf` | 2 páginas, formato twocolumn LaTeX, com introdução, metodologia, resultados, discussão e referências |
-| Slides | `slides.pdf` | 18 slides, tema Madrid (Beamer), cobrindo todo o projeto |
-| Guia técnico | `guia_apresentacao.md` | Explicação detalhada de cada arquivo de código |
-| Roteiro | `roteiro_apresentacao.md` | Roteiro slide a slide com o que falar na apresentação |
-| Métricas | `src/resultados/*_metricas.txt` | Métricas detalhadas de cada experimento |
-| Gráficos | `src/resultados/graficos/` | Curvas de aprendizado e matrizes de confusão |
-
----
 
 ## Limitações e Considerações Éticas
 
@@ -357,7 +344,7 @@ python predict.py ~/Downloads/teste.jpg --from-scratch
 
 ---
 
-## Licença e Referências
+## Licenças
 
 - KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G. E. *ImageNet Classification with Deep Convolutional Neural Networks*. NeurIPS, 2012.
 - SIMONYAN, K.; ZISSERMAN, A. *Very Deep Convolutional Networks for Large-Scale Image Recognition*. ICLR, 2015.
