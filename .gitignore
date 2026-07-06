@@ -5,6 +5,8 @@ venv/
 .env
 mulheres/
 *.zip
+src/resultados/extrator_vgg16.keras
+src/resultados/classificador_transfer.keras
 *.ipynb
 artigo.aux
 artigo.log
